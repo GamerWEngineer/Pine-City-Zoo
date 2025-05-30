@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<widget
+    xmlns="http://www.w3.org/ns/widgets"
+    id="com.voltbuilder.sample"
+    version="1.0.1">
+
+    <!-- App information -->
+    <name>Pine City Zoo</name>
+    <description>Everything you need to know about navigating the Zoo.</description>
+    <author>Creative Blues</author>
+    <plugin name="cordova-plugin-device"/>
+    <content src="index.html" />
+    <access origin="*" />
+    <preference name="orientation" value="default" />
+    <preference name="fullscreen" value="true" />
+</widget>

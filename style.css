@@ -1,0 +1,252 @@
+/* Style for the body */
+body{
+    padding    : 0;
+    margin     : 0;
+    font-family: Helvetica;
+}
+
+/* Style for the header */
+#header{
+    position: fixed;
+    top     : 0;
+    left    : 0;
+    z-index : 500;
+    width   :100%;
+    height  :80px;
+    background-image  : url('images/wood-bg.png');
+    background-repeat: repeat-x;
+}
+
+/* Style for the header image */
+#header img{
+    display: block;
+    margin : auto;
+    height : 70%;
+    padding-top: 15px; 
+}
+
+/* Style for top tabs */
+#tabs-top{
+    position: fixed;
+    top: 80px;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 40px;
+    background-color: darkgreen;
+}
+
+/* Style for the top tabs hyperlink*/
+#tabs-top a{
+    float: left;
+    display: block;
+    width: 33%;
+    height: 35px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 12px;
+}
+
+/* Style for the top tabs hyperlink on hover */
+#tabs-top a:hover{
+    background-color: forestgreen;
+    color: black;
+    height: 30px;
+}
+
+/* Style for the bottom tabs */
+#tabs-bottom{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 40px;
+    background-color: forestgreen;
+}
+
+/* Style for the bottom tabs hyperlink */
+#tabs-bottom a{
+    float: left;
+    display: block;
+    width: 33%;
+    height: 35px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 12px;
+}
+
+/* Style for the bottom tabs hyperlink on hover */
+#tabs-bottom a:hover{
+    background-color: darkgreen;
+    color: black;
+    height: 30px;
+}
+
+/* Style for the main content area */
+#main-home{
+    margin-top: 120px; /* Adjusted for header and top tabs */
+    height: 100vh;
+    overflow: auto;
+}
+
+/* ============== ANIMAL PAGE STYLES ============== */
+/* Style for the main content area for ANIMAL page*/
+#main{
+    margin-top: 119px; /* Adjusted for header and top tabs */
+    background: url('images/map-blur.png');
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+#content{
+    padding-top: 1px;
+    padding-bottom: 50px;
+}
+
+/* Style for Info Box hyperlinks*/
+a.info-box{
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.8);
+    width: 90%;
+    height: 90px;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 1px;
+}
+
+/* Style for Info Box Images (Classless)*/
+.info-box img{
+    float: left;
+    height: 70px;
+    margin: 10px;
+}
+
+/* Style for Info Box heading*/
+.info-box h3{
+    padding: 0;
+    margin-bottom: 0;
+    width: 90%;
+    font-size: 1.2em;
+    color: #572800;
+}
+
+.info-box p{
+    padding: 0;
+    margin: 0;
+    width: 90%;
+    font-size: 0.9em;
+    color: #131313;
+}
+
+.info-box img.right{
+    float: right;
+    margin-top: 25px;
+    height: 40px;
+}
+
+/* ============== INDIVIDUAL ANIMAL PAGE STYLING ============== */
+/* Style for the info box*/
+#info-box-full{
+    background: rgba(255, 255, 255, 0.8);
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 10px;
+}
+
+/* Style for the image*/
+#info-box-full img{
+    width: 100%;
+}
+
+/* Style for the heading*/
+#info-box-full h3{
+    text-align: center;
+    padding: 0;
+    margin-bottom: 0;
+    width: 90%;
+    font-size: 1.7em;
+    font-family: 'Times New Roman', Times, serif;
+    color: #572800;
+}
+
+/* Style for the paragraph*/
+#info-box-full p{
+    padding: 0;
+    margin: 0;
+    width: 90%;
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    color: #131313;
+}
+#info-box-full a{
+    text-decoration: none;
+    color: #131313;
+    font-weight: bold;
+}
+
+/* ============== WEATHER PAGE STYLING ============== */
+img.info-box-weather-icon{
+    height: 30px;
+    width: 30px !important;
+    float: left;
+    margin: 10px;
+}
+
+h1.info-box-weather-icon{
+    font-size: 55px;
+    font-weight: 200;
+    padding: 0;
+    margin: 0;
+}
+
+table{
+    width: 100%;
+}
+
+td{
+    border-top: 1px solid #131313;
+    padding: 5px;
+    font-size: 1.1em;
+}
+
+/* ============== FEEDBACK PAGE STYLING ============== */
+
+input{
+    width: 100%;
+    height: 25px;
+    margin: 12px 0;
+    border: 1px solid #929292;
+}
+
+textarea{
+    width: 100%;
+    height: 100px;
+    margin: 12px 0;
+    border: 1px solid #929292;
+}
+
+.button{
+    display: block;
+    width: 100%;
+    background-color: forestgreen;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 12px 0;
+    padding: 8px 0;
+}
+
+.button:hover{
+    background-color: darkgreen;
+    color: rgb(255, 255, 255);
+}
