@@ -7,19 +7,17 @@ A simple application to manage and explore information about animals in a zoo.
 ## Features
 
 - View a list of animals with details
-- Add, edit, and remove animal entries
-- Search and filter animals by species, habitat, or diet
-- Responsive and user-friendly interface
+- View and learn about all the attracions that are present at the zoo
 
 ## Installation
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/zoo-app.git
+    git clone https://github.com/yourusername/Pine-City-Zoo.git
     ```
 2. Navigate to the project directory:
     ```bash
-    cd zoo-app
+    cd Pine-City-Zoo
     ```
 3. Install dependencies:
     ```bash
@@ -39,3 +37,11 @@ A simple application to manage and explore information about animals in a zoo.
 
 Contributions are welcome! Please open issues or submit pull requests.
 
+## Contact
+
+For questions or feedback, please contact [your.email@example.com](mailto:your.email@example.com).
+
+## Acknowledgements
+
+- Inspired by real-world zoo management systems
+- Thanks to [FNB App Academy](linkto:https://appoftheyear.co.za/) and [IT Varisty] (linkto:https://www.itvarsity.org/app-academy-faqs/) for teaching me.
