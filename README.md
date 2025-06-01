@@ -39,7 +39,7 @@ Contributions are welcome! Please open issues or submit pull requests.
 
 ## Contact
 
-For questions or feedback, please contact [your.email@example.com](mailto:your.email@example.com).
+For questions or feedback, please feel free to contact me.
 
 ## Acknowledgements
 
